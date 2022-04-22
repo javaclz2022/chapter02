@@ -9,12 +9,15 @@ public class Goods {
 	// 생성자
 	public Goods() {  //기본생성자
 		//***** 메모리에 올리는일(클래스를 인스턴스화)
+		System.out.println("Good()");
 	}
+	
 
 	public Goods(String name) {
 		//***** 메모리에 올리는일(클래스를 인스턴스화)
 		//추가로직
 		this.name = name;
+		System.out.println("Goods(1)");
 	}
 	
 	/*
@@ -24,12 +27,12 @@ public class Goods {
 		this.price = price;
 	}
 	*/
-	
 	public Goods(String name, int price) {
 		//***** 메모리에 올리는일(클래스를 인스턴스화)
 		//추가로직
 		this.name = name;
 		this.price = price;
+		System.out.println("Goods(2)");
 	}
 	
 	

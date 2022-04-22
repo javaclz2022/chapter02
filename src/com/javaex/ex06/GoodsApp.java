@@ -16,6 +16,8 @@ public class GoodsApp {
 		cup.setName("머그컵");
 		cup.setPrice(2000);
 		
+		
+		
 		System.out.println(computer.toString());
 		System.out.println(camera.toString());
 		System.out.println(cup.toString());
