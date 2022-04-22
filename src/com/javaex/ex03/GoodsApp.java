@@ -6,7 +6,7 @@ public class GoodsApp {
 		
 		Goods camera = new Goods();
 		camera.setName("니콘");
-		camera.setPrice(40000);
+		camera.setPrice(-400000);
 		
 		Goods computer = new Goods();
 		computer.setName("LG그램");

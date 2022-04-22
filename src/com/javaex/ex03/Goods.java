@@ -9,21 +9,22 @@ public class Goods {
 	//생성자
 	
 	//메소드 - gs
-	public void setName(String n) {
-		name = n;
-	}
-	
-	public void setPrice(int p) {
-		price = p;
-	}
-	
 	public String getName() {
 		return name;
 	}
-	
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public int getPrice() {
 		return price;
 	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
 	
 	//메소드 - 일반
 	public void showInfo() {
@@ -32,4 +33,6 @@ public class Goods {
 		System.out.println("");
 	}
 
+	
+	
 }
