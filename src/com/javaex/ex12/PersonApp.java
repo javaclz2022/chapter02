@@ -23,8 +23,9 @@ public class PersonApp {
 		*/
 		
 		Student s03 = new Student("황일영", 33, "서울고등학교");
-		System.out.println(s03.getName());
-		System.out.println(s03.toString());
+		//System.out.println(s03.getName());
+		//System.out.println(s03.toString());
+		s03.showInfo();
 		
 		
 	}

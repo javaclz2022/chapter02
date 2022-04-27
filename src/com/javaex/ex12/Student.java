@@ -4,7 +4,6 @@ public class Student extends Person{
 	
 	//필드
 	private String schoolName;
-
 	
 	//생성자
 	public Student() {
@@ -35,13 +34,20 @@ public class Student extends Person{
 		this.schoolName = schoolName;
 	}
 
+
+	//메소드 -일반
+	public void showInfo() {
+		//부모toString()그대로사용 하고 싶을때 super
+		System.out.println(super.toString());
+		System.out.println("학교:" + this.schoolName);
+	}
+	
 	@Override
 	public String toString() {
-		return "Student [schoolName=" + schoolName + ", getName()=" + super.getName() + ", getAge()=" + super.getAge() + "]";
+		return "Student [schoolName=" + schoolName + ", getName()=" + name + ", getAge()=" + age + "]";
 	}
-
 	
-	//메소드 -일반
-
+	
+	
 
 }
