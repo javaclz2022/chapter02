@@ -46,12 +46,21 @@ public class ShapeApp {
 		for(int i=0; i<sArray.length; i++) {
 			sArray[i].draw();
 			System.out.println(sArray[i].area());
-		
 		}
 		
+		//캐스팅
 		System.out.println(((Rectangle)sArray[0]).getWidth());
+
+		System.out.println("------------------------------");
+		for(int i=0; i<sArray.length; i++) {
+			sArray[i].setLineColor("보라");
+		}
 		
-				
+		
+		for(int i=0; i<sArray.length; i++) {
+			sArray[i].draw();
+		}
+		
 	
 	
 	}
